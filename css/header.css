@@ -3,6 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+.title {
+    display: flex;
+    justify-content: center;
+}
 .konstrut {
+    position: absolute;
     width: 100%;
+}
+.konstrut__logo {
+    position: absolute;
+    margin-top: 55px;
+}
+.title__h1 {
+    font-size: 60px;
+    margin-top: 489px;
+}
+h1 {
+    position: absolute;
+    font-family: Bebas Neue;
+    letter-spacing: 10px;
+    color: white;
+}
+.title__construction-management {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 560px;
+    color: white;
+}
+.scroll__down {
+    position: absolute;
+    margin-top: 930px;
+    color: white;
+    font-size: 11px;
 }
