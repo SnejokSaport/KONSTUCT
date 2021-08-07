@@ -3,35 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-.title {
+.header {
     display: flex;
     justify-content: center;
 }
-.konstrut {
+.header__konstrut-images {
     position: absolute;
     width: 100%;
 }
-.konstrut__logo {
+.header__konstrut-logo {
     position: absolute;
     margin-top: 55px;
 }
-.title__h1 {
+.header__partner-kostuct {
     font-size: 60px;
     margin-top: 489px;
-}
-h1 {
+
     position: absolute;
     font-family: Bebas Neue;
     letter-spacing: 10px;
     color: white;
 }
-.title__construction-management {
+.header__construction-management {
     position: absolute;
     font-size: 20px;
     margin-top: 560px;
     color: white;
 }
-.scroll__down {
+.header__scroll-down {
     position: absolute;
     margin-top: 930px;
     color: white;
