@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 .header {
-    display: flex;
-    justify-content: center;
+    background-image: url(../img/bg.jpg);
 }
 .header__konstrut-images {
-    width: 100%;
 }
 .header__konstrut-logo {
     position: absolute;
