@@ -17,7 +17,7 @@
     color: white;
 }
 .header__wrapper {
-
+margin-top: 70px;
 }
 .logo.logo--white {
     height: 20px;
@@ -28,7 +28,6 @@
     font-size: 60px;
     font-family: Bebas Neue;
     letter-spacing: 5px;
-    /* margin-top: 310px; */
 }
 
 .header__subtitle {
