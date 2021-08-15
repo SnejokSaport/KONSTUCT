@@ -3,6 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
-.konstrut {
-    width: 100%;
+
+.header {
+    margin: 0 auto;
+    background-image: url(../img/bg.jpg);
+    height: 769px;
+    width: 1438px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-top: 42px;
+    padding-bottom: 70px;
+}
+
+.header__wrapper-title {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.logo.logo--white {
+    height: 20px;
+}
+
+.header__title {
+    font-size: 60px;
+    font-family: "Bebas Neue";
+    letter-spacing: 5px;
+}
+
+.header__subtitle {
+    font-size: 17px;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.header__scroll-button {
+    font-size: 11px;
+    font-family: "Open Sans";
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+/* --------------------------------------------------- */
+
+.nav {
+    display:  flex;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    width: 1438px;
+    background: #E6E6E6;
+}
+
+.nav__link {
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-decoration: none;
+    color: #48555B;
+}
+
+.nav__item {}
+
+.about-color {
+    /* цвет кнопки about */
+    color: #00A4E5;
+}
+
+.logo--black {
+    /* размер логотипа */
+    height: 20px;
 }
