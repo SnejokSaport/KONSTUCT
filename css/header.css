@@ -1,7 +1,29 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.nav {
+    display: ;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    width: 1438px;
+    background: #E6E6E6;
 }
-.konstrut {
-    width: 100%;
+
+.nav__link {
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-decoration: none;
+    color: #48555B;
+}
+
+.nav__item {}
+
+.about-color {
+    /* цвет кнопки about */
+    color: #00A4E5;
+}
+
+.logo--black {
+    /* размер логотипа */
+    height: 20px;
+}
