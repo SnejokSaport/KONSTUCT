@@ -50,7 +50,7 @@
 /* --------------------------------------------------- */
 
 .nav {
-    display: ;
+    display:  flex;
     grid-template-columns: 1fr 1fr;
     list-style: none;
     padding-top: 24px;
