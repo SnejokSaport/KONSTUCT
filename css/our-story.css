@@ -1,0 +1,10 @@
+.our-story {
+    padding: 0 calc(50% - 469px);
+}
+.our-story__title {
+    text-align: center;
+}
+.our-story__wrapper {
+    display: flex;
+    justify-content: space-between;
+}

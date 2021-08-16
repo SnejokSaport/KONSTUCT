@@ -3,3 +3,10 @@
 @import 'header.css';
 @import 'slider.css';
 @import 'nav.css';
+@import 'our-story.css';
+
+
+/* ----------------------------- */
+.page {
+    margin: 0;
+}
