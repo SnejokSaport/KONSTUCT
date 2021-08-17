@@ -1,10 +1,66 @@
 .our-story {
     padding: 0 calc(50% - 469px);
+    padding-top: 57px;
+    background: #FFFFFF;
 }
+
 .our-story__title {
     text-align: center;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18px;
+    color: #48555B;
 }
+
+.our-story__title::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #00A4E5;
+    width: 50px;
+    margin: 10px auto 0 auto;
+}
+
 .our-story__wrapper {
     display: flex;
     justify-content: space-between;
+    padding-top: 70px;
+}
+
+/* ----------------Текст-------------------- */
+
+.text__founding-companies {
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #48555B;
+}
+
+.text__lorem {
+    padding-top: 30px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 13px;
+}
+
+/* цвет слова */
+
+.text__konstruct {
+    color: #00A4E5;
+}
+
+/* карточки */
+
+.our-story__wrapper-card {
+    display: flex;
+    gap: 20px;
+}
+
+.we-plan {
+    position: absolute;
+    font-size: 24px;
+    font-family: "Open Sans";
+    font-weight: 8400;
+    color: #FFFFFF;
+    padding-top: 23px;
+    padding-left: 23px;
 }
