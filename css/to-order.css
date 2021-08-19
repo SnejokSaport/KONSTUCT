@@ -1,0 +1,32 @@
+.wrapper__to-order {
+    /* padding: 0 calc(50% - 469px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/to-order.css/to-orderbg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 499px;
+}
+
+.text-construction {
+    position: absolute;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 30px;
+    color: #48555B;
+    text-align: center;
+    padding-bottom: 160px;
+}
+
+.btn__to-order {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: #fff;
+}
