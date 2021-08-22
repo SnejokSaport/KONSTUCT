@@ -1,0 +1,71 @@
+.general-wrapper__our-capabilities {
+    padding: 0 calc(50% - 469px);
+    padding-top: 100px;
+}
+
+.wrapper__our-capabilities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-capabilities {
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #48555B;
+}
+
+.our-capabilities::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #00A4E5;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.btn__all-services {
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* card */
+
+.our-capabilities__card {
+    display: flex;
+    padding-top: 100px;
+    gap: 28px;
+}
+
+.our-capabilities__text-lorem {
+    padding: 0;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 11px;
+    color: #48555B;
+}
+
+.our-capabilities__text-card {
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #48555B;
+}
+
+.wrapper__card {
+    height: 330px;
+    width: 295px;
+    border: 1px solid #E6E6E6;
+    padding-top: 38px;
+    padding-left: 23px;
+}
+/* класс картинок */
+.our-capabilities__card-img {
+    padding-bottom: 20px;
+}

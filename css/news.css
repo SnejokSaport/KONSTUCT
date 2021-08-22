@@ -1,0 +1,33 @@
+.wraper__news {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 calc(50% - 469px);
+    background: #171819;
+    align-items: center;
+}
+
+.news {
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #fff;
+}
+.wrapper-btn {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.address {
+    width: 250px;
+    height: 40px;
+    padding-right: 100px;
+}
+
+.signup {
+    background: #00A4E5;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #fff;
+}
