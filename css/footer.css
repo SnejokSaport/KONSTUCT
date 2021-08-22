@@ -1,0 +1,32 @@
+.footer {
+    background: #141A20;
+    display: flex;
+    padding: 0 calc(50% - 469px);
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.menu__item {
+    list-style: none;
+    color: #fff;
+    margin-top: 10px;
+}
+.menu__link{
+    color: #fff;
+}
+.company__img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.company {
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+.text__footer {
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+.footer__menu {
+margin-bottom: 20px;
+}
